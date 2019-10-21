@@ -1,6 +1,6 @@
 # BOOKSTORE WEB APPLICATION 📖
-<img src="/img/bookshelf.png" height="30%" align="left">
 > BRIEF DESCRIPTION, comming soon
+<img src="/img/bookshelf.png" height="30%" align="left">
  
 
 ## Table of contents
