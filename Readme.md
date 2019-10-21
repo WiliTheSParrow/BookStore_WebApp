@@ -1,5 +1,5 @@
 # BOOKSTORE WEB APPLICATION 📖
-<img src="#" height="30%" align="right">
+<img src="/img/bookshelf.png" height="30%" align="left">
 > BRIEF DESCRIPTION, comming soon
  
 
