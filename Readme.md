@@ -1,6 +1,6 @@
-# BOOKSTORE WEB APPLICATION
+# BOOKSTORE WEB APPLICATION 📖
 <img src="#" height="30%" align="right">
-> 📖 BRIEF DESCRIPTION, comming soon
+> BRIEF DESCRIPTION, comming soon
  
 
 ## Table of contents
