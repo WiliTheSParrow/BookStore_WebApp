@@ -1,5 +1,5 @@
 # BOOKSTORE WEB APPLICATION 📖
-> BRIEF DESCRIPTION, comming soon
+> A single-page website about a fictional bookstore web application.
 <img src="/img/bookshelf.png" height="50%" align="left">
  
 
