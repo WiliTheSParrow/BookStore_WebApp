@@ -1,3 +1,27 @@
-body{
-    background: purple;
+body {
+    background: #833471;
+    color: #FFC312;
+    padding: 0;
+    margin: 0;
+
+    #header {
+        align-items: center;
+
+        p {
+            font-size: 50px;
+
+            @media (max-width: 595px) {
+                font-size: 30px;
+                width: 100%;
+                background: #6F1E51;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        img {
+            width: 100vw;
+        }
+    }
 }
