@@ -1,20 +1,19 @@
 body {
-    background: #833471;
+    background: #006266;
     color: #FFC312;
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
 
     #header {
         align-items: center;
-
         p {
-            font-size: 50px;
-
+            font-size: 48px;
+            padding-left: 5px;
             @media (max-width: 595px) {
-                font-size: 30px;
+                font-size: 27px;
                 width: 100%;
-                background: #6F1E51;
-                position: absolute;
+                padding-left: 0;
                 display: flex;
                 justify-content: center;
             }
@@ -22,6 +21,18 @@ body {
 
         img {
             width: 100vw;
+            @media (max-width: 595px) {
+                height: 50%;
+            }
         }
+    }
+
+    #searchEngine{
+        border: 1px solid black;
+    }
+
+    footer{
+        border: 1px solid red;
+        
     }
 }

@@ -1,6 +1,7 @@
 body {
-  background: #833471;
+  background: #006266;
   color: #FFC312;
+  font-family: 'Montserrat', sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -12,15 +13,15 @@ body #header {
 }
 
 body #header p {
-  font-size: 50px;
+  font-size: 48px;
+  padding-left: 5px;
 }
 
 @media (max-width: 595px) {
   body #header p {
-    font-size: 30px;
+    font-size: 27px;
     width: 100%;
-    background: #6F1E51;
-    position: absolute;
+    padding-left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -32,5 +33,19 @@ body #header p {
 
 body #header img {
   width: 100vw;
+}
+
+@media (max-width: 595px) {
+  body #header img {
+    height: 50%;
+  }
+}
+
+body #searchEngine {
+  border: 1px solid black;
+}
+
+body footer {
+  border: 1px solid red;
 }
 /*# sourceMappingURL=style.css.map */
