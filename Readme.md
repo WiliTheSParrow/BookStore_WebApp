@@ -16,8 +16,9 @@
 
 
 ## Technologies
-* ...
-* ...
+* HTML
+* SASS/CSS
+* JavaScript
 
 
 ## Click on the link below to check out this project
