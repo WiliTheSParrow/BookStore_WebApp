@@ -1,6 +1,6 @@
 # BOOKSTORE WEB APPLICATION 📖
 > A single-page website about a fictional bookstore web application.
-<img src="/img/bookshelf.png" height="50%" align="left">
+<img src="/public/img/bookshelf.png" height="50%" align="left">
  
 
 ## Table of contents
