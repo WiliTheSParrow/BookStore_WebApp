@@ -26,8 +26,11 @@
                 <input type="text" placeholder="Search">
                 <button>Search</button>
             </div>
-            <div class="row" id="books">
-
+            <div class="row" id="books" v-for="(value,key) in allbooks">
+                <img :src=value.cover alt="Book Cover">
+                <p>{{value.title}}</p>
+                <p>{{value.description}}</p>
+                <button><a :href="value.detail" target="_blank">More Info</a></button>  
             </div>
             <div class="footer-card">
                 <small></small>

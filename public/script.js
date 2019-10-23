@@ -4,7 +4,7 @@ var app = new Vue({
         allbooks: []
     },
     created: function () {
-        this.getData("https://api.myjson.com/bins/zyv02");
+        this.getData("https://api.myjson.com/bins/14f61w");
     },
     methods: {
         getData: function (link) {
