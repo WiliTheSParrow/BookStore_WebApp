@@ -1,0 +1,31 @@
+{
+    "books": [{
+        "cover": "https://cdn.suggestedreads.com/wp-content/uploads/2019/07/Best-HP-Lovecraft-Books-The-Call-of-Cthulhu-199x300.jpg",
+        "detail": "https://www.amazon.com/Cthulhu-Stories-Penguin-Twentieth-Century-Classics-ebook/dp/B002DYMB30/ref=sr_1_1?keywords=The+Call+of+Cthulhu+and+Other+Weird+Stories&qid=1571826806&s=digital-text&sr=1-1",
+        "title": "The Call of Cthulhu and Other Weird Stories",
+        "description": "Frequently imitated and widely influential, Howard Phillips Lovecraft reinvented the horror genre in the twentieth century, discarding ghosts and witches and instead envisioning mankind as a tiny outpost of dwindling sanity in a chaotic and malevolent universe. This definitive collection reveals the development of Lovecraft’s mesmerizing narrative style and establishes him as a canonical—and visionary—American writer.",
+        "language": "en",
+        "imageCredit": "Penguin Classics"
+    }, {
+        "cover": "https://cdn.suggestedreads.com/wp-content/uploads/2019/07/Best-HP-Lovecraft-Books-The-Shadow-Over-Innsmouth-200x300.jpg",
+        "detail": "https://www.amazon.com/Complete-Fiction-Lovecraft-Mountains-Innsmouth-ebook/dp/B07NWN6KD6/ref=sr_1_2?crid=PPFJSRLU2XUQ&keywords=the+shadow+over+innsmouth&qid=1571826749&s=digital-text&sprefix=The+Shadow+Over+Innsmouth%2Cdigital-text%2C377&sr=1-2",
+        "title": "The Shadow Over Innsmouth",
+        "description": "The Shadow over Innsmouth is a horror novella by H. P. Lovecraft. It forms part of the Cthulhu Mythos, using its motif of a malign undersea civilization. It references several shared elements of the Mythos, including place-names, mythical creatures and invocations. The narrator is a student on an antiquarian tour of New England. He sees a piece of exotic jewelry in a museum, and learns that its source is the nearby decrepit seaport of Innsmouth...      It is the only Lovecraft story which was published in book form during his lifetime.",
+        "language": "en",
+        "imageCredit": "CreateSpace Independent Publishing Platform"
+    }, {
+        "cover": "https://cdn.suggestedreads.com/wp-content/uploads/2019/07/Best-HP-Lovecraft-Books-Whisperer-in-Darkness-188x300.jpg",
+        "detail": "https://www.amazon.com/gp/product/0368465632/ref=nav_signin?ie=UTF8&tag=suggestedreads-20&creative=9325&linkCode=as2&creativeASIN=0368465632&linkId=57757e74b2ff9aac9496b1cf6ee3b079&",
+        "title": "The Whisperer in Darkness",
+        "description": "The Whisperer in Darkness is a 26,000-word novella by American writer H. P. Lovecraft. Written February-September 1930, it was first published in Weird Tales, August 1931.[1] Similar to The Colour Out of Space (1927), it is a blend of horror and science fiction. Although it makes numerous references to the Cthulhu Mythos, the story is not a central part of the mythos, but reflects a shift in Lovecraft's writing at this time towards science fiction. The story also introduces the Mi-go, an extraterrestrial race of fungoid creatures.",
+        "language": "en",
+        "imageCredit": "Blurb"
+    }, {
+        "cover": "https://cdn.suggestedreads.com/wp-content/uploads/2019/07/Best-H.P.-Lovecraft-Stories-At-the-Mountains-of-Madness-200x300.jpg",
+        "detail": "https://www.amazon.com/gp/product/1548522449/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=suggestedreads-20&creative=9325&linkCode=as2&creativeASIN=1548522449&linkId=a052db071e2a651258daedacf8db1e06",
+        "title": "At the Mountains of Madness",
+        "description": "Long acknowledged as a master of nightmarish vision, H.P. Lovecraft established the genuineness and dignity of his own pioneering fiction in 1931 with his quintessential work of supernatural horror, At the Mountains of Madness. The deliberately told and increasingly chilling recollection of an Antarctic expedition's uncanny discoveries - and their encounter with an untold menace in the ruins of a lost civilization - is a milestone of macabre literature.",
+        "language": "en",
+        "imageCredit": "CreateSpace Independent Publishing Platform"
+    }]
+}
