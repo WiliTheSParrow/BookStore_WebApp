@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bookstore Web Application</title>
+    <title>H.P. Lovecraft Bookstore Web Application</title>
     <link rel="shortcut icon" type="image/png" href="/public/img/Book_25711.png" />
     <!-- CSS, Fancybox, Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -20,18 +20,29 @@
         <div class="container-fluid">
             <div class="row" id="header">
                 <img src="/public/img/shelf01.png" alt="Book Shelf">
-                <p>Bookstore Web Application</p>
+                <p>H.P. Lovecraft Bookstore Web Application</p>
             </div>
             <div class="row" id="searchEngine">
-                <input type="text" placeholder="Search">
+                <input type="text" v-model="searchKey" placeholder="Search">
                 <button>Search</button>
             </div>
-            <div class="row" id="books" v-for="(value,key) in allbooks">
-                <img :src=value.cover alt="Book Cover">
-                <p>{{value.title}}</p>
-                <p>{{value.description}}</p>
-                <button><a :href="value.detail" target="_blank">More Info</a></button>  
+            <div class="row" id="taster">
+                <p> Do you want to get into that spooky vibe? Read the best H.P. Lovecraft Books that’ll give you
+                    nightmares!</p>
             </div>
+            <div v-bind:class="{hideTable: hideTable}">
+                <div class="row" id="books" v-for="(value,key) in filterBooks">
+                    <img :src=value.cover alt="Book Cover">
+                    <p>{{value.title}}</p>
+                    <p>{{value.description}}</p>
+                    <button><a :href="value.detail" target="_blank">More Info</a></button>
+                </div>
+            </div>
+            <table v-bind:class="{hideNoMatch: hideNoMatch}" class="nomatches">
+                <tr>
+                    <td class="nomatches2"> NO MATCHES FOUND </td>
+                </tr>
+            </table>
             <div class="footer-card">
                 <small></small>
             </div>

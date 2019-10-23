@@ -6,12 +6,6 @@ body {
   margin: 0;
 }
 
-body #header {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 body #header p {
   font-size: 48px;
   padding-left: 5px;
@@ -22,12 +16,7 @@ body #header p {
     font-size: 27px;
     width: 100%;
     padding-left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    text-align: center;
   }
 }
 
@@ -45,7 +34,21 @@ body #searchEngine {
   border: 1px solid black;
 }
 
-body footer {
-  border: 1px solid red;
+body #taster {
+  margin-top: 10px;
+}
+
+@media (max-width: 595px) {
+  body #taster {
+    display: none;
+  }
+}
+
+body .hideTable {
+  display: none;
+}
+
+body .hideNoMatch {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

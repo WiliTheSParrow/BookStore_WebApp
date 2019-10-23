@@ -6,33 +6,40 @@ body {
     margin: 0;
 
     #header {
-        align-items: center;
         p {
             font-size: 48px;
             padding-left: 5px;
+
             @media (max-width: 595px) {
                 font-size: 27px;
                 width: 100%;
                 padding-left: 0;
-                display: flex;
-                justify-content: center;
+                text-align: center;
             }
         }
 
         img {
             width: 100vw;
+
             @media (max-width: 595px) {
                 height: 50%;
             }
         }
     }
 
-    #searchEngine{
+    #searchEngine {
         border: 1px solid black;
     }
 
-    footer{
-        border: 1px solid red;
-        
+    #taster{
+        margin-top: 10px;
+        @media (max-width: 595px) {display: none;}
+    }
+    .hideTable {
+        display: none;
+    }
+    
+    .hideNoMatch {
+        display: none;
     }
 }
