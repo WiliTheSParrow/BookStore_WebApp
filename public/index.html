@@ -22,26 +22,32 @@
                 <img src="/public/img/shelf01.png" alt="Book Shelf">
                 <p>H.P. Lovecraft Bookstore Web Application</p>
             </div>
-            <div class="row" id="searchEngine">
-                <input type="text" v-model="searchKey" placeholder="Search">
-            </div>
             <div class="row" id="taster">
                 <p> Do you want to get into that spooky vibe? Read the best H.P. Lovecraft Books that’ll give you
                     nightmares!</p>
             </div>
-            <div v-bind:class="{hideTable: hideTable}">
-                <div class="row" id="books" v-for="(value,key) in filterBooks">
-                    <img :src=value.cover alt="Book Cover">
-                    <p>{{value.title}}</p>
-                    <p>{{value.description}}</p>
-                    <button><a :href="value.detail" target="_blank">More Info</a></button>
-                </div>
+            <div class="row" id="searchEngine">
+                <input type="text" v-model="searchKey" placeholder="Search">
             </div>
-            <table v-bind:class="{hideNoMatch: hideNoMatch}" class="nomatches">
-                <tr>
-                    <td class="nomatches2"> NO MATCHES FOUND </td>
-                </tr>
-            </table>
+            <div class="row" id="content">
+                <div v-bind:class="{hideTable: hideTable}">
+                    <div class="row" id="books" v-for="(value,key) in filterBooks">
+                        <img :src=value.cover alt="Book Cover" id="bookPictureCard">
+                        <div id="moreInfoCard">
+                            <p>{{value.title}}</p>
+                            <p>{{value.description}}</p>
+                            <button><a :href="value.detail" target="_blank">More Info</a></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <table v-bind:class="{hideNoMatch: hideNoMatch}" class="nomatches">
+                    <tr>
+                        <td> NO MATCHES FOUND </td>
+                    </tr>
+                </table>
+            </div>
             <div class="footer-card">
                 <small></small>
             </div>

@@ -6,10 +6,11 @@ body {
     margin: 0;
 
     #header {
+        border: 2px solid red;
         p {
             font-size: 48px;
             padding-left: 5px;
-
+            
             @media (max-width: 595px) {
                 font-size: 27px;
                 width: 100%;
@@ -28,7 +29,7 @@ body {
     }
 
     #searchEngine {
-        border: 1px solid black;
+        border: 2px solid red;
     }
 
     #taster{
@@ -41,5 +42,20 @@ body {
     
     .hideNoMatch {
         display: none;
+    }
+
+    #taster{
+        border: 2px solid red;
+    }
+
+    .nomatches{
+        border: 2px solid red;
+    }
+
+    #content{
+        border: 2px solid purple;
+        #bookPictureCard{
+            width: 400px;
+        }
     }
 }
