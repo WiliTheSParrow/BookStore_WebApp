@@ -1,6 +1,6 @@
 # H.P. LOVECRAFT BOOKSTORE WEB APPLICATION 📖
 > A single-page website about a fictional bookstore web application to promote H.P. Lovecraft books.
-<img src="/public/img/bookshelf.png" height="50%" align="left">
+<img src="/public/img/bookshelf.png" height="50%" align="left" style="opacity: 0.5;">
  
 
 ## Table of contents
