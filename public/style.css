@@ -68,7 +68,13 @@ body #content {
   border: 2px solid purple;
 }
 
-body #content #bookPictureCard {
-  width: 400px;
+body #content #books #bookPictureCard {
+  width: 300px;
+  height: 100%;
+}
+
+body #content #books #moreInfoCard {
+  border: 2px solid purple;
+  width: 300px;
 }
 /*# sourceMappingURL=style.css.map */

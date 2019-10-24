@@ -7,10 +7,11 @@ body {
 
     #header {
         border: 2px solid red;
+
         p {
             font-size: 48px;
             padding-left: 5px;
-            
+
             @media (max-width: 595px) {
                 font-size: 27px;
                 width: 100%;
@@ -32,30 +33,45 @@ body {
         border: 2px solid red;
     }
 
-    #taster{
+    #taster {
         margin-top: 10px;
-        @media (max-width: 595px) {display: none;}
+
+        @media (max-width: 595px) {
+            display: none;
+        }
     }
+
     .hideTable {
         display: none;
     }
-    
+
     .hideNoMatch {
         display: none;
     }
 
-    #taster{
+    #taster {
         border: 2px solid red;
     }
 
-    .nomatches{
+    .nomatches {
         border: 2px solid red;
     }
 
-    #content{
+    #content {
         border: 2px solid purple;
-        #bookPictureCard{
-            width: 400px;
+
+        #books {
+         
+
+            #bookPictureCard {
+                width: 300px;
+                height: 100%;
+            }
+
+            #moreInfoCard {
+                border: 2px solid purple;
+                width: 300px;
+            }
         }
     }
 }
