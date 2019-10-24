@@ -1,5 +1,5 @@
-# BOOKSTORE WEB APPLICATION 📖
-> A single-page website about a fictional bookstore web application.
+# H.P. LOVECRAFT BOOKSTORE WEB APPLICATION 📖
+> A single-page website about a fictional bookstore web application to promote H.P. Lovecraft books.
 <img src="/public/img/bookshelf.png" height="50%" align="left">
  
 
@@ -12,13 +12,14 @@
 * [Contact](#contact)
 
 ## General info
-...
+Do you want to get into that spooky vibe? Read the best H.P. Lovecraft Books that’ll give you nightmares! 🐙 A single-page website about a fictional bookstore web application to promote H.P. Lovecraft books. The page contains a real-time search engine to browse between the books.
 
 
 ## Technologies
 * HTML
 * SASS/CSS
 * JavaScript
+* Bootstrap
 
 
 ## Click on the link below to check out this project
