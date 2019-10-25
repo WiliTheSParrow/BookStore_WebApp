@@ -10,7 +10,7 @@
     <!-- CSS, Fancybox, Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" href="/public/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
@@ -32,11 +32,15 @@
             <div class="row" id="content">
                 <div v-bind:class="{hideTable: hideTable}">
                     <div id="books" v-for="(value,key) in filterBooks">
-                        <img :src=value.cover alt="Book Cover" id="bookPictureCard">
-                        <div id="moreInfoCard">
-                            <p>{{value.title}}</p>
-                            <p>{{value.description}}</p>
-                            <button><a :href="value.detail" target="_blank">More Info</a></button>
+                        <div id="bookCard">
+                            <div class="front face">
+                                <img :src=value.cover alt="Book Cover">
+                            </div>
+                            <div class="back face">
+                                <p>{{value.title}}</p>
+                                <p>{{value.description}}</p>
+                                <button><a :href="value.detail" target="_blank">More Info</a></button>
+                            </div>
                         </div>
                     </div>
                 </div>
