@@ -48,16 +48,17 @@ body .hideNoMatch {
   display: none;
 }
 
+body #content {
+  /* justify-content: space-evenly;
+        align-items: center;
+        display: inline-block; */
+}
+
+body #content .col-1 {
+  border: 1px solid red;
+}
+
 body #content #books {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
   position: relative;
   margin: 10px auto;
   width: 250px;
@@ -99,7 +100,6 @@ body #content #books #bookCard .face.back {
   padding: 10px;
   font-weight: 700;
   text-align: center;
-  background-color: #006266;
 }
 
 body #content #books #bookCard .face.back button {

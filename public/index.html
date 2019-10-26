@@ -31,7 +31,7 @@
             </div>
             <div class="row" id="content">
                 <div v-bind:class="{hideTable: hideTable}">
-                    <div id="books" v-for="(value,key) in filterBooks">
+                    <div id="books" v-for="(value,key) in filterBooks" class="col-1">
                         <div id="bookCard">
                             <div class="front face">
                                 <img :src=value.cover alt="Book Cover">

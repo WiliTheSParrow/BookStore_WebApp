@@ -44,11 +44,13 @@ body {
     }
 
     #content {
+        /* justify-content: space-evenly;
+        align-items: center;
+        display: inline-block; */
+
+        .col-1{border:1px solid red;}
 
         #books {
-            justify-content: space-evenly;
-            align-items: center;
-            display: inline-flex;
             position: relative;
             margin: 10px auto;
             width: 250px;
@@ -82,7 +84,7 @@ body {
                     padding: 10px;
                     font-weight: 700;
                     text-align: center;
-                    background-color: #006266;
+                    // background-color: #006266;
 
                     button {
                         background-color: #1B1464;
