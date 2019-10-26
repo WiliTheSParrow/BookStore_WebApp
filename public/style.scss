@@ -74,11 +74,12 @@ body {
                 }
 
                 .face.back {
-                    display: block;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                     transform: rotateY(180deg);
                     box-sizing: border-box;
-                    margin: 20px;
-                    padding: 10px;
                     font-weight: 700;
                     text-align: center;
                     // background-color: #006266;
