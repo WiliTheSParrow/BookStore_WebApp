@@ -54,21 +54,16 @@ body #content2 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body #content2 #books {
-  margin: 10px auto;
+  margin: 20px auto;
   width: 250px;
   height: 400px;
   z-index: 1;
-}
-
-body #content2 #books img {
-  width: 250px;
-  height: 400px;
 }
 
 body #content2 #books #bookCard {
@@ -79,6 +74,11 @@ body #content2 #books #bookCard {
           transform-style: preserve-3d;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
+}
+
+body #content2 #books #bookCard img {
+  width: 250px;
+  height: 400px;
 }
 
 body #content2 #books #bookCard .face {
