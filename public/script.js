@@ -8,7 +8,7 @@ var app = new Vue({
         hideNoMatch: true
     },
     created: function () {
-        this.getData("https://api.myjson.com/bins/k7z48");
+        this.getData("https://api.myjson.com/bins/76soo");
     },
     methods: {
         getData: function (link) {
