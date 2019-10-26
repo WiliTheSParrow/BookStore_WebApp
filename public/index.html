@@ -20,14 +20,16 @@
         <div class="container-fluid">
             <div class="row" id="header">
                 <img src="/public/img/shelf01.png" alt="Book Shelf">
-                <p>H.P. Lovecraft Bookstore Web Application</p>
+                <div id="header2">
+                        <p>H.P. Lovecraft Bookstore Web Application</p>
+                    <div id="searchEngine">
+                        <input type="text" v-model="searchKey" placeholder="Search for title, description, etc.">
+                    </div>
+                </div>
             </div>
             <div class="row" id="taster">
                 <p> Do you want to get into that spooky vibe? Read the best H.P. Lovecraft Books that’ll give you
                     nightmares!</p>
-            </div>
-            <div class="row" id="searchEngine">
-                <input type="text" v-model="searchKey" placeholder="Search">
             </div>
             <div id="content">
                 <div v-bind:class="{hideTable: hideTable}" id="content2">

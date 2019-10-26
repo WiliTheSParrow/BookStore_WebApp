@@ -6,15 +6,47 @@ body {
     margin: 0;
 
     #header {
-        p {
-            font-size: 48px;
-            padding-left: 5px;
+        #header2 {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
 
-            @media (max-width: 595px) {
-                font-size: 27px;
-                width: 100%;
-                padding-left: 0;
-                text-align: center;
+            p {
+                font-size: 48px;
+                padding-left: 5px;
+
+                @media (max-width: 595px) {
+                    font-size: 27px;
+                    width: 100%;
+                    padding-left: 0;
+                    text-align: center;
+                }
+            }
+
+            #searchEngine {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                input {
+                    border: 5px solid black;
+                    width: 400px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                flex-direction: column;
+                align-items: center;
+
+                #searchEngine {
+                    width: 100%;
+
+                    input {
+                        width: 100%;
+                    }
+                }
             }
         }
 
@@ -29,6 +61,8 @@ body {
 
     #taster {
         margin-top: 10px;
+        padding-left: 20px;
+        justify-content: center;
 
         @media (max-width: 595px) {
             display: none;
@@ -64,6 +98,7 @@ body {
                 img {
                     width: 250px;
                     height: 400px;
+                    border: 5px solid black;
                 }
 
                 .face {
@@ -72,6 +107,7 @@ body {
                     height: 100%;
                     backface-visibility: hidden;
                 }
+
 
                 .face.back {
                     display: flex;
@@ -82,16 +118,20 @@ body {
                     box-sizing: border-box;
                     font-weight: 700;
                     text-align: center;
-                    // background-color: #006266;
+                    background-color: #833471;
 
                     button {
                         background-color: #1B1464;
-                        color: #EE5A24;
+                        color: #FFC312;
                         font-size: 14px;
                         font-weight: 700;
                         border: 4px solid #1B1464;
                         outline: none;
                         border-radius: 4px;
+
+                        a {
+                            color: #FFC312;
+                        }
                     }
                 }
 
