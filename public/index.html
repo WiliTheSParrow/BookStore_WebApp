@@ -29,9 +29,9 @@
             <div class="row" id="searchEngine">
                 <input type="text" v-model="searchKey" placeholder="Search">
             </div>
-            <div class="row" id="content">
-                <div v-bind:class="{hideTable: hideTable}">
-                    <div id="books" v-for="(value,key) in filterBooks" class="col-1">
+            <div id="content">
+                <div v-bind:class="{hideTable: hideTable}" id="content2">
+                    <div id="books" v-for="(value,key) in filterBooks">
                         <div id="bookCard">
                             <div class="front face">
                                 <img :src=value.cover alt="Book Cover">
